@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #aaff96, #1c6785);
+  color: #fff; /* Ajusta el color del texto para que sea legible en el fondo */
+}  
+
+#confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.button 
+{
+    position: relative;
+    text-align: center;
+    width: 370px;
+    padding: 20px;
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family: poppins;
+    font-weight: 50;
+    border: blanchedalmond solid;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 300px;
+    transition: 3s;
+}
+.button2
+{
+    position: relative;
+    text-align: center;
+    width: 370px;
+    padding: 20px;
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family: poppins;
+    font-weight: 50;
+    border: blanchedalmond solid;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 300px;
+    transition: 3s;
+}
+.button:hover 
+{
+    box-shadow: 0 5px 50px #3681ab inset, 0 5px 50px 0 #aed7ed,
+    0 5px 50px  #3681ab inset, 0 5px 50px 0 #aed7ed;
+}
+.button2:hover 
+{
+    box-shadow: 0 5px 50px #8C7ACE inset, 0 5px 50px 0 #B19CDF,
+    0 5px 50px #8C7ACE inset, 0 5px 50px 0 #B19CDF;
+}
